@@ -6,7 +6,6 @@ export const usePosition = () => {
 	const [error, setError] = useState<null | string>(null);
 
 	const onChange = ({ coords }: Position) => {
-		console.log(coords);
 		setPosition({
 			lat: coords.latitude,
 			lng: coords.longitude,
