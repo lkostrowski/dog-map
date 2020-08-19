@@ -1,10 +1,10 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { Map as LMap, MapProps, Marker, TileLayer } from 'react-leaflet';
 import styles from './Map.module.scss';
 import { usePosition } from '../../usePosition';
 
 export const Map = (props: Partial<MapProps>) => {
-	const { position, error } = usePosition();
+	const { position } = usePosition();
 
 	return (
 		<LMap

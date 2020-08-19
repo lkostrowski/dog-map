@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export declare namespace MapItemModel {
 	export type Item = {
 		lat: number;
