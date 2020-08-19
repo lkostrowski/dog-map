@@ -4,3 +4,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+.leaflet-popup-content-wrapper {
+	box-shadow: none;
+	border: 2px solid #08787f;
+}
+
+.leaflet-popup-tip-container {
+	display: none;
+}
