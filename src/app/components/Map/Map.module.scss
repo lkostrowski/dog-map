@@ -1,5 +1,10 @@
 .container {
-	width: 100vw;
-	height: 100vh;
+	width: calc(100vw - 40px);
+	height: calc(100vh - 80px);
 	font-family: 'Comic Neue', sans-serif;
+	overflow: hidden;
+	border-radius: 20px;
+	margin: 20px;
+	margin-top: 0;
+	border: 2px solid #08787F;
 }
