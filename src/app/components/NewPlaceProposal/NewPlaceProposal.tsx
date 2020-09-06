@@ -29,7 +29,7 @@ export const FormPlaceProposal = (props: Props) => {
 	};
 
 	return (
-		<form data-netlify="true" onSubmit={submitForm} method="POST">
+		<form name="new-place-form" onSubmit={submitForm} method="POST">
 			<div>
 				<label>Nazwa:</label>
 				<input className={styles.input} name="name" />
