@@ -30,7 +30,8 @@ export const FormPlaceProposal = (props: Props) => {
 
 	return (
 		<form name="new-place-form" onSubmit={submitForm} method="POST">
-			<input type="hidden" name="new-place-form" value="new-place-form" />
+			<input type="hidden" name="form-name" value="new-place-form" />
+
 			<div>
 				<label>Nazwa:</label>
 				<input className={styles.input} name="name" />
