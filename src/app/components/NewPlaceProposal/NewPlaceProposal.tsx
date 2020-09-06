@@ -2,8 +2,6 @@ import React, { FormEvent, useState } from 'react';
 
 import styles from './NewPlaceProposal.module.scss';
 
-const formEndpoint = 'https://formspree.io/mgenbkzz';
-
 type Props = {
 	onClose: () => unknown;
 };
@@ -31,7 +29,7 @@ export const FormPlaceProposal = (props: Props) => {
 	};
 
 	return (
-		<form onSubmit={submitForm} action={formEndpoint} method="POST">
+		<form data-netlify="true" onSubmit={submitForm} method="POST">
 			<div>
 				<label>Nazwa:</label>
 				<input className={styles.input} name="name" />
